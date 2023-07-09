@@ -1,4 +1,4 @@
-local isClient = (game.Players.LocalPlayer ~= nil)
+nlocal isClient = (game.Players.LocalPlayer ~= nil)
 if not isClient then
 	error("ERROR: '"..script:GetFullName().."' can only be used from a LocalScript.")
 end
@@ -153,3 +153,4 @@ function ModuleAPI:Attach3D(GuiObj,Model,SizeOverride)
 	Index.Object3D = M
 	return Index
 end
+return ModuleAPI
