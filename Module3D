@@ -1,4 +1,4 @@
-nlocal isClient = (game.Players.LocalPlayer ~= nil)
+local isClient = (game.Players.LocalPlayer ~= nil)
 if not isClient then
 	error("ERROR: '"..script:GetFullName().."' can only be used from a LocalScript.")
 end
