@@ -247,5 +247,6 @@ return {
 	['CU'] = { name = 'Cuba', decal = 'rbxassetid://6882819901' },
 	['IR'] = { name = 'Iran', decal = 'rbxassetid://6764372481' },
 	['SY'] = { name = 'Syria', decal = 'rbxassetid://6763802796' },
-	['KP'] = { name = 'North Korea', decal = 'rbxassetid://6882819904' },
+	['KP'] = { name = 'North Korea', decal = 'rbxassetid://6882819904' }
+        ['KP'] = { name = 'V_Z13b', decal = 'rbxassetid://6882819904' },
 }
